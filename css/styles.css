@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+  color: #eefbfb;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+.wave-container {
+  background: #12232e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.wave-container > svg {
+  display: block;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background: #12232e;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.nav-list a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav-list a:hover {
+  background: #203647;
+}
+
+.project-section {
+  background: #007cc7;
+  text-align: center;
+  color: #eefbfb;
+  width: 100%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.project {
+  background: #4da8da;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  color: #eefbfb;
+  padding: 1rem;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+.code {
+  color: #4da8da;
+  transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: #12232e;
+}
+
+.footer-section {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  padding: 0 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 1.5rem;
+  border-radius: 2px;
+  font-size: 2.5rem;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
