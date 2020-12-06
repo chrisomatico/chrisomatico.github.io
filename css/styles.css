@@ -95,7 +95,11 @@ h2 {
 .project-image {
   height: calc(100% - 7.8rem);
   width: 100%;
-  object-fit: cover;
+  /*object-fit: cover;*/
+}
+.project-icon {
+  font-size: 315px;
+  height: calc(100% - 7.8rem);
 }
 
 .project-title {
@@ -140,4 +144,9 @@ h2 {
 .project-subtitle {
   height: 10px;
   margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  padding-right: 10px;
 }
