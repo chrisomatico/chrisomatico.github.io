@@ -71,6 +71,13 @@ h2 {
 .nav-list a:hover {
   background: #203647;
 }
+.dropdown-content {
+  display: none;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .project-section {
   background: #007cc7;
